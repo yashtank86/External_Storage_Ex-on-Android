@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Second_Act">
+
+    <EditText
+        android:id="@+id/ed_username_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="put your username"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_int_chace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="internal cache"
+        android:onClick="internal_cache"/>
+
+    <Button
+        android:id="@+id/btn_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="external cache"
+        android:onClick="external_cache"/>
+
+    <Button
+        android:id="@+id/btn_external_private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="external private "
+        android:onClick="external_private"/>
+
+    <Button
+        android:id="@+id/btn_external_public"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="external public"
+        android:onClick="external_public"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:onClick="back"/>
+
+</LinearLayout>
